@@ -1,4 +1,4 @@
-/* Paleta de colores */
+
 :root {
   --color-primary-dark: #213435;
   --color-primary: #46685b;
@@ -7,7 +7,7 @@
   --color-light: #e1e3ac;
 }
 
-/* Estilos globales */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -19,14 +19,14 @@ html, body {
   flex-direction: column;
 }
 
-/* Aplicación principal */
+
 .app {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-/* Header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -54,13 +54,13 @@ html, body {
   cursor: pointer;
 }
 
-/* Contenido principal */
+
 .content {
   display: flex;
   flex-grow: 1;
 }
 
-/* Barra lateral */
+
 .sidebar {
   background-color: var(--color-primary);
   color: white;
@@ -82,7 +82,7 @@ html, body {
   width: 100%;
 }
 
-/* Área de contenido */
+
 .main-content {
   flex-grow: 1;
   padding: 8rem;
@@ -111,7 +111,7 @@ html, body {
   color: white;
 }
 
-/* Footer */
+
 .footer {
   background-color: var(--color-primary-dark);
   color: white;
