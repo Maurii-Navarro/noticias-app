@@ -1,0 +1,148 @@
+/* Paleta de colores */
+:root {
+  --color-primary-dark: #213435;
+  --color-primary: #46685b;
+  --color-secondary: #648a64;
+  --color-accent: #a6b985;
+  --color-light: #e1e3ac;
+}
+
+/* Estilos globales */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Aplicación principal */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary-dark);
+  color: white;
+  padding: 1.5rem;
+  flex-shrink: 0;
+}
+
+.home-button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.nav-button {
+  background-color: var(--color-secondary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+/* Contenido principal */
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Barra lateral */
+.sidebar {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.category-button {
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Área de contenido */
+.main-content {
+  flex-grow: 1;
+  padding: 8rem;
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-article {
+  background-color: var(--color-secondary);
+  padding: 5rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+.sub-articles {
+  display: flex;
+  gap: 2rem;
+}
+
+.sub-article {
+  background-color: var(--color-accent);
+  padding: 9rem;
+  flex-grow: 1;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-primary-dark);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-button {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.instagram {
+  background-color: #E1306C;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
